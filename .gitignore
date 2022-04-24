@@ -2,3 +2,7 @@
 !/rc/.config/nvim
 !/rc/.config/kitty
 !/rc/.config/picom.conf
+
+/rc/.xmonad/*
+!/rc/.xmonad/xmonad.rc
+!/rc/.xmonad/xmobarrc
