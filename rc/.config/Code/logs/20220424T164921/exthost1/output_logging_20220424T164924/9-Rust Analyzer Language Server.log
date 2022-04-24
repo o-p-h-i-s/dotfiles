@@ -1,3 +1,0 @@
-[Error - 4:50:03 PM] Request textDocument/formatting failed.
-  Message: Failed to spawn "rustfmt" "--edition" "2021"
-  Code: -32603 
