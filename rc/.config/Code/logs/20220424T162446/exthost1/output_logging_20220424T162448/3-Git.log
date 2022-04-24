@@ -1,0 +1,11 @@
+[2022-04-24T07:24:48.814Z] Git の検証が検出されました: git
+[2022-04-24T07:24:48.883Z] git から Git 2.35.1 を使用しています
+[2022-04-24T07:24:48.899Z] > git rev-parse --git-dir [1ms]
+[2022-04-24T07:24:48.903Z] Open repository: /home/ophis/git/atcoder
+[2022-04-24T07:24:48.914Z] > git symbolic-ref --short HEAD [1ms]
+[2022-04-24T07:24:48.918Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [1ms]
+[2022-04-24T07:24:48.925Z] > git remote --verbose [1ms]
+[2022-04-24T07:24:48.925Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+[2022-04-24T07:24:48.930Z] > git config --get commit.template [1ms]
+[2022-04-24T07:24:49.600Z] > git ls-files --stage -- /home/ophis/git/atcoder/Cargo.toml [3ms]
+[2022-04-24T07:24:52.990Z] > git ls-files --stage -- /home/ophis/git/atcoder/src/main.rs [1ms]

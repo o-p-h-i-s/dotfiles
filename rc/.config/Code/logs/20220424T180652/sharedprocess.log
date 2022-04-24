@@ -1,0 +1,11 @@
+[2022-04-24 18:06:54.035] [sharedprocess] [info] Starting worker process with pid 5938 (type: fileWatcher, window: 1).
+[2022-04-24 18:09:51.168] [sharedprocess] [info] Uninstalling extension: matklad.rust-analyzer
+[2022-04-24 18:09:51.287] [sharedprocess] [info] Detected extension removed from another source matklad.rust-analyzer
+[2022-04-24 18:09:51.994] [sharedprocess] [info] Successfully uninstalled extension: matklad.rust-analyzer
+[2022-04-24 18:09:52.574] [sharedprocess] [info] Worker process with pid 5938 terminated normally (type: fileWatcher, window: 1).
+[2022-04-24 18:09:53.373] [sharedprocess] [info] Starting worker process with pid 6680 (type: fileWatcher, window: 1).
+[2022-04-24 18:10:00.354] [sharedprocess] [info] Getting Manifest... matklad.rust-analyzer
+[2022-04-24 18:10:00.363] [sharedprocess] [info] Installing extension: matklad.rust-analyzer
+[2022-04-24 18:10:00.459] [sharedprocess] [info] Downloaded extension: matklad.rust-analyzer /home/ophis/.config/Code/CachedExtensionVSIXs/matklad.rust-analyzer-0.2.1022-linux-x64
+[2022-04-24 18:10:00.479] [sharedprocess] [info] Removed the extension from uninstalled list: matklad.rust-analyzer
+[2022-04-24 18:10:00.485] [sharedprocess] [info] Extension installed successfully: matklad.rust-analyzer

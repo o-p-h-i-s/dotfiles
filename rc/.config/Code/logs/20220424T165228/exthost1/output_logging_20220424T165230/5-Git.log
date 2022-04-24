@@ -1,0 +1,20 @@
+[2022-04-24T07:52:30.662Z] Git の検証が検出されました: git
+[2022-04-24T07:52:30.702Z] git から Git 2.35.1 を使用しています
+[2022-04-24T07:52:30.788Z] > git rev-parse --git-dir [11ms]
+[2022-04-24T07:52:30.793Z] Open repository: /home/ophis/git/atcoder
+[2022-04-24T07:52:30.950Z] > git symbolic-ref --short HEAD [47ms]
+[2022-04-24T07:52:30.987Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [29ms]
+[2022-04-24T07:52:31.012Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+[2022-04-24T07:52:31.014Z] > git remote --verbose [4ms]
+[2022-04-24T07:52:31.092Z] > git config --get commit.template [58ms]
+[2022-04-24T07:52:31.970Z] > git ls-files --stage -- /home/ophis/git/atcoder/src/main.rs [4ms]
+[2022-04-24T07:52:32.949Z] > git symbolic-ref --short HEAD [2ms]
+[2022-04-24T07:52:32.956Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [1ms]
+[2022-04-24T07:52:32.963Z] > git remote --verbose [1ms]
+[2022-04-24T07:52:32.963Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+[2022-04-24T07:52:32.972Z] > git config --get commit.template [1ms]
+[2022-04-24T07:52:48.259Z] > git symbolic-ref --short HEAD [0ms]
+[2022-04-24T07:52:48.263Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [1ms]
+[2022-04-24T07:52:48.269Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+[2022-04-24T07:52:48.269Z] > git remote --verbose [1ms]
+[2022-04-24T07:52:48.274Z] > git config --get commit.template [1ms]

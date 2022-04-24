@@ -11,7 +11,11 @@ import XMonad.Layout.Spacing
 import XMonad.Layout.NoBorders
 import XMonad.Layout.Simplest
 
-main = xmonad def { terminal = myterminal
+-- Xmobar
+import XMonad.Hooks.DynamicLog
+
+main = xmonad =<< xmobar def 
+        { terminal = myterminal
 	, borderWidth        = myborderwidth
 	, layoutHook         = mylayout
 	, normalBorderColor  = mybordercolor

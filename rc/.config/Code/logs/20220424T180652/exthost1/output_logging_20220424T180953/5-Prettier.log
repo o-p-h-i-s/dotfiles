@@ -1,0 +1,62 @@
+["INFO" - 6:09:54 PM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 6:09:54 PM] Extension Version: 9.5.0.
+["INFO" - 6:17:25 PM] Formatting vscode-userdata:/home/ophis/.config/Code/User/settings.json
+["INFO" - 6:17:25 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 6:17:25 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 6:17:25 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/ophis/.config/Code/User/settings.json",
+  "parser": "json"
+}
+["INFO" - 6:17:25 PM] Formatting completed in 0.069ms.
+["INFO" - 6:17:32 PM] Formatting vscode-userdata:/home/ophis/.config/Code/User/settings.json
+["INFO" - 6:17:32 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 6:17:32 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 6:17:32 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/ophis/.config/Code/User/settings.json",
+  "parser": "json"
+}
+["INFO" - 6:17:32 PM] Formatting completed in 0.004ms.

@@ -1,0 +1,19 @@
+[2022-04-24 18:06:53.461] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-24 18:06:53.707] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-24 18:06:54.749] [renderer1] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/ophis/.config/Code/User, real: /home/ophis/dotfiles/rc/.config/Code/User)
+[2022-04-24 18:06:54.749] [renderer1] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/ophis/.config/Code/User/settings.json, real: /home/ophis/dotfiles/rc/.config/Code/User/settings.json)
+[2022-04-24 18:06:54.750] [renderer1] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/ophis/.config/Code/User/keybindings.json, real: /home/ophis/dotfiles/rc/.config/Code/User/keybindings.json)
+[2022-04-24 18:06:54.817] [renderer1] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/ophis/.config/Code/User/snippets, real: /home/ophis/dotfiles/rc/.config/Code/User/snippets)
+[2022-04-24 18:06:58.743] [renderer1] [warning] {"name":"Error","message":"Failed to spawn \"rustfmt\" \"--edition\" \"2021\""}
+[2022-04-24 18:09:42.860] [renderer1] [warning] {"name":"Error","message":"Failed to spawn \"rustfmt\" \"--edition\" \"2021\""}
+[2022-04-24 18:09:53.573] [renderer1] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/ophis/.config/Code/User, real: /home/ophis/dotfiles/rc/.config/Code/User)
+[2022-04-24 18:09:53.573] [renderer1] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/ophis/.config/Code/User/settings.json, real: /home/ophis/dotfiles/rc/.config/Code/User/settings.json)
+[2022-04-24 18:09:53.574] [renderer1] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/ophis/.config/Code/User/keybindings.json, real: /home/ophis/dotfiles/rc/.config/Code/User/keybindings.json)
+[2022-04-24 18:09:53.592] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-24 18:09:53.678] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-24 18:09:53.994] [renderer1] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/ophis/.config/Code/User/snippets, real: /home/ophis/dotfiles/rc/.config/Code/User/snippets)
+[2022-04-24 18:10:00.554] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-24 18:12:08.772] [renderer1] [warning] {"name":"Error","message":"Failed to spawn \"rustfmt\" \"--edition\" \"2021\""}
+[2022-04-24 18:12:45.521] [renderer1] [warning] {"name":"Error","message":"Failed to spawn \"rustfmt\" \"--edition\" \"2021\""}
+[2022-04-24 18:17:07.490] [renderer1] [warning] {"name":"Error","message":"Failed to spawn \"rustfmt\" \"--edition\" \"2021\""}
+[2022-04-24 18:17:34.724] [renderer1] [warning] {"name":"Error","message":"Failed to spawn \"rustfmt\" \"--edition\" \"2021\""}

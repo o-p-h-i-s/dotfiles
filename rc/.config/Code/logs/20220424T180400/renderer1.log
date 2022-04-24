@@ -1,0 +1,6 @@
+[2022-04-24 18:04:01.433] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-24 18:04:01.702] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-24 18:04:02.183] [renderer1] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/ophis/.config/Code/User, real: /home/ophis/dotfiles/rc/.config/Code/User)
+[2022-04-24 18:04:02.183] [renderer1] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/ophis/.config/Code/User/settings.json, real: /home/ophis/dotfiles/rc/.config/Code/User/settings.json)
+[2022-04-24 18:04:02.183] [renderer1] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/ophis/.config/Code/User/keybindings.json, real: /home/ophis/dotfiles/rc/.config/Code/User/keybindings.json)
+[2022-04-24 18:04:02.184] [renderer1] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/ophis/.config/Code/User/snippets, real: /home/ophis/dotfiles/rc/.config/Code/User/snippets)

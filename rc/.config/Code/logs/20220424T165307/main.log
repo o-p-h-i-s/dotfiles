@@ -1,0 +1,16 @@
+[2022-04-24 16:53:07.464] [main] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/ophis/.config/Code/User, real: /home/ophis/dotfiles/rc/.config/Code/User)
+[2022-04-24 16:53:07.465] [main] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/ophis/.config/Code/User/settings.json, real: /home/ophis/dotfiles/rc/.config/Code/User/settings.json)
+[2022-04-24 16:53:07.527] [main] [info] window#load: attempt to load window (id: 1)
+[2022-04-24 16:53:07.537] [main] [info] update#setState idle
+[2022-04-24 16:53:07.582] [main] [info] ExtensionHostStarterWorker created
+[2022-04-24 16:53:08.364] [main] [info] window#load: window reported ready (id: 1)
+[2022-04-24 16:53:08.671] [main] [info] Starting extension host with pid 25504 (fork() took 30 ms).
+[2022-04-24 16:53:08.674] [main] [info] ExtensionHostStarterWorker.start() took 34 ms.
+[2022-04-24 16:53:08.772] [main] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/ophis/.config/Code/User, real: /home/ophis/dotfiles/rc/.config/Code/User)
+[2022-04-24 16:53:08.773] [main] [warning] [File Watcher (node.js)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/ophis/.config/Code/User/settings.json, real: /home/ophis/dotfiles/rc/.config/Code/User/settings.json)
+[2022-04-24 16:53:37.543] [main] [info] update#setState checking for updates
+[2022-04-24 16:53:37.633] [main] [info] update#setState idle
+[2022-04-24 17:53:37.644] [main] [info] update#setState checking for updates
+[2022-04-24 17:53:38.135] [main] [info] update#setState idle
+[2022-04-24 17:55:19.184] [main] [info] Waiting for extension host with pid 25504 to exit.
+[2022-04-24 17:55:19.199] [main] [info] Extension host with pid 25504 exited with code: 0, signal: null.

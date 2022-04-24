@@ -1,7 +1,7 @@
 
-xmonad.hs:15:1: warning: [-Wtabs]
+xmonad.hs:19:1: warning: [-Wtabs]
     Tab character found here, and in five further locations.
     Please use spaces instead.
    |
-15 |         , borderWidth        = myborderwidth
+19 |         , borderWidth        = myborderwidth
    | ^^^^^^^^

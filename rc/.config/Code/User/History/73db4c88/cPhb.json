@@ -1,0 +1,7 @@
+{
+    "[rust]": {
+        "editor.tabSize": 3,
+    },
+    "editor.tabSize": 2,
+    "editor.fontFamily": "'CascadiaCode Nerd Font', 'Droid Sans Mono', 'monospace', monospace"
+}

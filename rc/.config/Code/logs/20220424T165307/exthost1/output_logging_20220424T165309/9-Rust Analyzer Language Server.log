@@ -1,0 +1,87 @@
+[Error - 4:54:50 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 4:57:20 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 4:58:22 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 4:58:39 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:01:34 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:01:36 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:02:06 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:08:58 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:09:03 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:09:15 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:16:18 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:16:56 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:18:51 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:19:03 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:26:32 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:27:12 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:27:28 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:28:51 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:29:22 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:29:59 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:30:04 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:30:10 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:30:16 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:33:11 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:33:22 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:33:46 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:40:38 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:41:03 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
+[Error - 5:41:14 PM] Request textDocument/formatting failed.
+  Message: Failed to spawn "rustfmt" "--edition" "2021"
+  Code: -32603 
