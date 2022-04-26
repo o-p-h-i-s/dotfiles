@@ -4,5 +4,5 @@
 !/rc/.config/picom.conf
 
 /rc/.xmonad/*
-!/rc/.xmonad/xmonad.rc
+!/rc/.xmonad/xmonad.hs
 !/rc/.xmonad/xmobarrc
