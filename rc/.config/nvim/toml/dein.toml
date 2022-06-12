@@ -1,0 +1,21 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'ulwlu/elly.vim'
+hook_add = '''
+set termguicolors
+colorscheme elly
+'''
+
+[[plugins]]
+repo = 'rhysd/clever-f.vim'
+hook_add = '''
+let g:clever_f_smart_case = 1
+let g:clever_f_fix_key_direction = 1
+'''
+
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+hook_add = '''
+'''
