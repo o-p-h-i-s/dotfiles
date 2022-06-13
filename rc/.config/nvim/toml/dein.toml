@@ -18,4 +18,8 @@ let g:clever_f_fix_key_direction = 1
 [[plugins]]
 repo = 'itchyny/lightline.vim'
 hook_add = '''
+let g:lightline = {
+   \  'separator': { 'left': "\UE0C1\UE0C0\UE0C4", 'right': "\UE0C4\UE0C0\UE0C2" },
+   \  'subseparator': { 'left': "\UE0C5\UE0C4\UE0C5", 'right': "\UE0C5\UE0C4\UE0C5" },
+   \  }
 '''
