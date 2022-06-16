@@ -34,19 +34,22 @@ endif
 " visual
 set number
 set showcmd
+set wildmode=full
+set wildoptions=pum
 
 " search
 set ignorecase
 set smartcase
 set wrapscan
 set incsearch
-nnoremap <Esc><Esc> :nohlsearch<CR>
+nnoremap <Esc><Esc> :<C-u>nohlsearch<CR>
 
 " tab
 set autoindent
 set expandtab
 set tabstop=3
 set shiftwidth=3
+autocmd Filetype rust set expandtab tabstop=3 shiftwidth=3
 
 " buf
 set splitright
@@ -59,4 +62,12 @@ set nobackup
 nnoremap  :source ~/.config/nvim/init.vim<CR>
 nnoremap j gj
 nnoremap k gk
-inoremap <silent> j <Esc>
+inoremap <silent> jj <Esc>
+
+" clipboard
+if system('uname -a | grep microsoft') != ''
+  augroup myYank
+    autocmd!
+    autocmd TextYankPost * :call system('clip.exe', @")
+  augroup END
+endif"

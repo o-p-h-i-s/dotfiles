@@ -5,6 +5,7 @@ repo = 'Shougo/dein.vim'
 repo = 'ulwlu/elly.vim'
 hook_add = '''
 set termguicolors
+autocmd ColorScheme * highlight LineNr guifg=#9B9257
 colorscheme elly
 '''
 
@@ -19,6 +20,7 @@ let g:clever_f_fix_key_direction = 1
 repo = 'itchyny/lightline.vim'
 hook_add = '''
 let g:lightline = {
+   \  'colorscheme': 'elly',
    \  'separator': { 'left': "\UE0C1\UE0C0\UE0C4", 'right': "\UE0C4\UE0C0\UE0C2" },
    \  'subseparator': { 'left': "\UE0C5\UE0C4\UE0C5", 'right': "\UE0C5\UE0C4\UE0C5" },
    \  }

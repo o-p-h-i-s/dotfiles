@@ -1,4 +1,10 @@
 [[plugins]]
+repo = 'thinca/vim-quickrun'
+on_event = 'CursorHold'
+hook_source = '''
+'''
+
+[[plugins]]
 repo = 'vim-denops/denops.vim'
 on_event = 'CursorHold'
 hook_add = '''
@@ -10,6 +16,7 @@ repo = 'Shougo/ddc.vim'
 depends = ['denops.vim', 'nvim-lspconfig']
 on_source = 'denops.vim'
 hook_source = '''
+call ddc#custom#patch_global('completionMenu', 'pum.vim')
 call ddc#custom#patch_global('sources', ['nvim-lsp', 'around'])
 call ddc#custom#patch_global('sourceOptions', {
    \  'around': {'mark': '[A]'},
@@ -44,6 +51,7 @@ on_source = 'nvim-lspconfig'
 
 [[plugins]]
 repo = 'neovim/nvim-lspconfig'
+on_source = 'ddc.vim'
 on_event = 'CursorHold'
 hook_source = '''
 set completeopt=menuone,noinsert,noselect
@@ -58,13 +66,43 @@ require("nvim-lsp-installer").setup({
       }
    }
 })
-local servers = { 'rust_analyzer' }
+local servers = { 'rust_analyzer', 'denols' }
 for _, lsp in pairs(servers) do
    require('lspconfig')[lsp].setup {
       on_attach = on_attach
    }
 end
 EOF
+'''
+
+[[plugins]]
+repo = 'Shougo/pum.vim'
+depends = 'ddu.vim'
+on_source = 'lexima.vim'
+hook_add = '''
+set pumwidth=0
+inoremap <silent><expr> <C-n>
+   \  pum#visible() ? '<Cmd>call pum#map#select_relative(+1)<CR>' :
+   \  ddc#manual_complete()
+inoremap <silent><expr> <C-p>
+   \  pum#visible() ? '<Cmd>call pum#map#select_relative(-1)<CR>' :
+   \  ddc#manual_complete()
+inoremap <C-e>   <Cmd>call pum#map#cancel()<CR>
+'''
+hook_source = '''
+call pum#set_option('padding', v:true)
+call pum#set_option('border', 'rounded')
+call pum#set_option('highlight_normal_menu', "NoneBg")
+call pum#set_option('setline_insert', v:true)
+'''
+
+[[plugins]]
+repo = 'cohama/lexima.vim'
+on_event = 'CursorHold'
+hook_post_source = '''
+let g:lexima_no_default_rules = 1
+call lexima#set_default_rules()
+inoremap <expr><CR> pum#visible() ? '<Cmd>call pum#map#confirm()<CR>' : lexima#expand('<LT>CR>', 'i')
 '''
 
 [[plugins]]
@@ -79,7 +117,7 @@ function! s:ddu_my_settings() abort
       \ <Cmd>call ddu#ui#ff#do_action('itemAction')<CR>
    nnoremap <buffer><silent> <Space>
       \ <Cmd>call ddu#ui#ff#do_action('toggleSelectItem')<CR>
-   nnoremap <buffer><silent> i
+   nnoremap <buffer><silent> /
       \ <Cmd>call ddu#ui#ff#do_action('openFilterWindow')<CR>
    nnoremap <buffer><silent> q
       \ <Cmd>call ddu#ui#ff#do_action('quit')<CR>
@@ -100,8 +138,8 @@ call ddu#custom#patch_global({
    \  'ui': 'ff',
    \  'uiParams': {
    \     'ff': {
-   \         'split': 'floating',
-   \         'startFilter': v:true,
+   \        'split': 'floating',
+   \        'floatingBorder': 'rounded',
    \     }
    \  },
    \  'sources': [{'name': 'file_rec', 'params': {}}],
