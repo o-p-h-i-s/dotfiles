@@ -17,7 +17,7 @@ root_state='%(!.#.$)'
 user_state='[%n]'
 path_state='%'${width}'<..<%~%<<'
 prompt_1="\
-%F{${color_2}}${separator_1}%f\
+%F{${color_2}}╭──${separator_1}%f\
 %K{${color_2}}%F{${color_1}}${separator_1}%f%k\
 %K{${color_1}}${user_state}%k\
 %K{${color_2}}%F{${color_1}}${separator_2}%f%k\
@@ -25,6 +25,7 @@ prompt_1="\
 %F{${color_2}}${separator_2}%f\
 "
 prompt_2="\
+%F{${color_2}}╰────%f\
 %F{${color_1}}${root_state} %f\
 "
 precmd() {
