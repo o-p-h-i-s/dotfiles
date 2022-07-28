@@ -1,7 +1,13 @@
 [[plugins]]
+repo = 'vlime/vlime'
+on_event = 'CursorHold'
+rtp = 'vim/'
+
+[[plugins]]
 repo = 'thinca/vim-quickrun'
 on_event = 'CursorHold'
 hook_source = '''
+let g:quickrun_config = {'exec': 'cargo run'}
 '''
 
 [[plugins]]

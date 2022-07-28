@@ -7,10 +7,19 @@ zstyle ':completion:*' matcher-list '' 'm:{[:lower:]}={[:upper:]}' '+m:{[:upper:
 autoload -Uz colors && colors
 
 ## git
+autoload -Uz vcs_info && vcs_info
+setopt prompt_subst
+zstyle ':vcs_info:git:*' check-for-changes true
+zstyle ':vcs_info:git:*' stagedstr "%F{yellow}!"
+zstyle ':vcs_info:git:*' unstagedstr "%F{red}+"
+zstyle ':vcs_info:*' formats "%F{green}%c%u[%b]%f"
+zstyle ':vcs_info:*' actionformats '[%b|%a]'
 
 ## prompt
 separator_1=$'\UE0C4\UE0C0\UE0C2'
 separator_2=$'\UE0C1\UE0C0\UE0C4'
+separator_3=$'\UE0C0\UE0C2'
+separator_4=$'\UE0C1\UE0C0'
 color_1='095'
 color_2='236'
 root_state='%(!.#.$)'
@@ -22,18 +31,20 @@ prompt_1="\
 %K{${color_1}}${user_state}%k\
 %K{${color_2}}%F{${color_1}}${separator_2}%f%k\
 %K{${color_2}} ${path_state}%k\
-%F{${color_2}}${separator_2}%f\
+%F{${color_2}}${separator_2}%f \
 "
+
 prompt_2="\
 %F{${color_2}}╰────%f\
 %F{${color_1}}${root_state} %f\
 "
+export PROMPT=${prompt_1}$vcs_info_msg_0_$'\n'${prompt_2}
 precmd() {
    precmd() {
       echo
+      vcs_info
    }
 }
-export PROMPT=${prompt_1}$'\n'${prompt_2}
 
 ## set
 setopt IGNOREEOF

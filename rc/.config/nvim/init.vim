@@ -62,6 +62,8 @@ set nobackup
 nnoremap  :source ~/.config/nvim/init.vim<CR>
 nnoremap j gj
 nnoremap k gk
+vnoremap j gj
+vnoremap k gk
 inoremap <silent> jj <Esc>
 
 " clipboard
